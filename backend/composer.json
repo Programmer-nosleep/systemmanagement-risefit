@@ -1,0 +1,14 @@
+{
+    "name": "risefit/payment",
+    "description": "Payment Gateway Integration for RiseFit",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "midtrans/midtrans-php": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Risefit\\Payment\\": "src/"
+        }
+    }
+}
